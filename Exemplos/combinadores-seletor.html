@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hcode - Combinadores de Seletor</title>
+
+    <style>
+        form ~ input {
+            border: red 2px solid;
+        }
+    </style>
+</head>
+<body>
+
+    <input type="text" placeholder="Endereço">
+    
+    <form>
+        <input type="text" placeholder="Nome"> <!-- Filho direto ">" de Form -->
+        <label for="email">
+            <input type="email" placeholder="E-mail" id="email"> <!-- Neto de Form, filho de Label -->
+        </label>
+    </form>
+    
+    <!-- Irmãos adjacentes "~" de Form - aplica em todos os seguintes -->
+    <input type="text" placeholder="Senha"> <!-- Irmão adjacente "+" de Form - aplica somente no primeiro -->
+    <input type="text" placeholder="Confirme a Senha">
+    <input type="text" placeholder="Confirme a Senha">
+    <input type="text" placeholder="Confirme a Senha">
+
+</body>
+</html>
