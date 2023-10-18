@@ -1,0 +1,32 @@
+/**
+ *  FLEX-WRAP
+ *  nowrap: cada item cabe em uma única linha
+ *  wrap: os itens são agrupados em linhas adicionais
+ *  wrap-reverse: os itens são agrupados em linhas adicionais ao contrário
+ */
+
+/* Level 18of24 */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Level 19of24 */
+#pond {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/**
+ *  FLEX-FLOW
+ *  As duas propriedades flex-direction e flex-wrap são usadas tantas vezes juntas que a propriedade abreviada flex-flow foi
+ *  criada para combiná-las. Esta propriedade abreviada aceita o valor das duas propriedades separadas por um espaço.
+ *  Por exemplo, você pode usar flex-flow: row wrap para definir linhas e envolvê-las.
+ */
+
+/* Level 20of24 */
+#pond {
+    display: flex;
+    flex-flow: column wrap;
+}

@@ -1,0 +1,48 @@
+/**
+ *  FLEX-DIRECTION
+ *  row: os itens são colocados na mesma direção do texto
+ *  row-reverse: os itens são colocados na direção oposta à do texto
+ *  column: os itens são colocados de cima para baixo
+ *  column-reverse: os itens são colocados de baixo para cima
+ */
+
+/* Level 8of24 */
+#pond {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* Level 9of24 */
+#pond {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Level 10of24 */
+#pond {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+
+/* Level 11of24 */
+#pond {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+/* Level 12of24 */
+#pond {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+/* Level 13of24 */
+#pond {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: end;
+}

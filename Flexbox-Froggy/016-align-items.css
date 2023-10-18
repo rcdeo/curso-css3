@@ -1,0 +1,28 @@
+/**
+ *  ALIGN-ITEMS
+ *  flex-start: os itens são alinhados ao topo do contêiner
+ *  flex-end: os itens são alinhados à parte inferior do contêiner
+ *  center: os itens são alinhados no centro vertical do contêiner
+ *  baseline: os itens são exibidos na linha de base do contêiner
+ *  stretch: os itens são esticados para caber no contêiner
+ */
+
+/* Level 5of24 */
+#pond {
+    display: flex;
+    align-items: end;
+}
+
+/* Level 6of24 */
+#pond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Level 7of24 */
+#pond {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}

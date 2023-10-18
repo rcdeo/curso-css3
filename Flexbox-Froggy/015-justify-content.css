@@ -1,0 +1,32 @@
+/**
+ *  JUSTIFY-CONTENT
+ *  flex-start: os itens são alinhados ao lado esquerdo do contêiner
+ *  flex-end: os itens são alinhados ao lado direito do contêiner
+ *  center: os itens são alinhados no centro do contêiner
+ *  space-between: Os itens são exibidos com espaçamento igual entre eles
+ *  space-around: os itens são exibidos com espaçamento igual ao seu redor
+ */
+
+/* Level 1of24 */
+#pond {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Level 2of24 */
+#pond {
+    display: flex;
+    justify-content: center;
+}
+
+/* Level 3of24 */
+#pond {
+    display: flex;
+    justify-content: space-around; /* espaço nas extremidades */
+}
+
+/* Level 4of24 */
+#pond {
+    display: flex;
+    justify-content: space-between; /* colado  nas extremidades (pontas) */
+}

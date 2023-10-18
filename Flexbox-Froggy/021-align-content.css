@@ -1,0 +1,32 @@
+/**
+ *  ALIGN-CONTENT
+ *  flex-start: as linhas são empacotadas na parte superior do contêiner
+ *  flex-end: as linhas são embaladas na parte inferior do contêiner
+ *  center: as linhas são embaladas no centro vertical do contêiner
+ *  space-between: as linhas são exibidas com espaçamento igual entre elas
+ *  space-around: as linhas são exibidas com espaçamento igual ao seu redor
+ *  stretch: as linhas são esticadas para caber no contêiner
+ */
+
+/* Level 21of24 */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+/* Level 22of24 */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+/* Level 23of24 */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+}
+

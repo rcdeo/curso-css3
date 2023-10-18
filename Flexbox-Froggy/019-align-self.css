@@ -1,0 +1,25 @@
+/**
+ *  ALIGN-SELF
+ *  Outra propriedade que você pode aplicar a itens individuais.
+ *  Esta propriedade aceita os mesmos valores align-items e seu valor para o item específico.
+ */
+
+
+/* Level 16of24 */
+#pond {
+    display: flex;
+    align-items: flex-start;
+}
+.yellow {
+    align-self: flex-end;
+}
+
+/* Level 17of24 */
+#pond {
+    display: flex;
+    align-items: flex-start;
+}
+.yellow {
+    align-self: flex-end;
+    order: 1;
+}
